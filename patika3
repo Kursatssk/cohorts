@@ -1,0 +1,40 @@
+Root selection:
+Let's select the first element as root, root 7
+
+Adding 5:
+5 is less than 7, so it is the left child of 7.
+
+Adding 1:
+1. Less than 7 goes to the left.
+Anything younger than 5 will be the left child of 5.
+
+8 Addition:
+8 is greater than 7, so it becomes 7's right child.
+
+Adding 3:
+3 is less than 7, it goes to the left side.
+Less than 5, it continues to the left.
+Greater than 1 becomes the right child of 1.
+
+Adding 6:
+6 is less than 7, it goes to the left side.
+It is greater than 5, so it becomes the right child of 5.
+
+0 Add:
+Less than 0.7 goes to the left side.
+Less than 5, it continues to the left.
+Even younger than 1 is the left child of 1.
+
+9 Addition:
+9 is greater than 7, it goes to the right side.
+Anyone older than 8 becomes the right child of 8.
+
+4 Addition:
+4 is less than 7, it goes to the left side.
+Less than 5, it continues to the left.
+Greater than 1 becomes the left child of the right child of 1, and greater than 3 becomes the right child of 3.
+
+Adding 2:
+2 less than 7 goes to the left side.
+Less than 5, it continues to the left.
+The one greater than 1 becomes the left child of the right child of 1, and the one less than 3 becomes the left child of 3.
