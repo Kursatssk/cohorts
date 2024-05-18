@@ -1,0 +1,14 @@
+The sequence is divided into two: [16, 21, 11] and [8, 12, 22]
+[16, 21, 11] is divided into: [16] and [21, 11]
+[8, 12, 22] is divided by: [8] and [12, 22]
+[21, 11] is divided into: [21] and [11]
+[12, 22] is divided into: [12] and [22]
+
+[21] and [11] are combined: [11, 21]
+[12] and [22] are combined: [12, 22]
+[16] combined with [11, 21]: [11, 16, 21]
+[8] and [12, 22] are combined: [8, 12, 22]
+The last two ordered sequences are concatenated: [11, 16, 21] and [8, 12, 22]
+Result: [8, 11, 12, 16, 21, 22]
+
+Big-O : O(nlogn)
